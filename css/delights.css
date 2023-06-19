@@ -1,0 +1,263 @@
+:root {
+    --yellow: #FFCE00;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0%;
+    background-color: #484848;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.header li {
+    list-style: none;
+    margin: 13px;
+}
+
+.header a:hover {
+    color: rgb(255, 111, 0);
+}
+
+#banniere {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/font1.gif) no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+
+/* nos recettes */
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--yellow);
+    position: relative;
+    padding-bottom: 5px;
+    margin-left: 26px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: #ff5900;
+    width: 50px;
+    height: 3px;
+    bottom: 0;
+    margin-left: 2px;
+}
+
+.img-recette {
+    background-image: url(font2.jpeg);
+    background-size: cover !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(font2.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/font2.jpeg) no-repeat;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button {
+    color: aliceblue;
+    background-color: initial;
+    font-weight: 800;
+    height: 8%;
+    border-radius: 91px;
+    border-color: var(--yellow);
+    text-decoration: none;
+}
+
+hr {
+    margin: 50px 103px;
+    background-color: #ff5900;
+    border: none;
+    height: 2px;
+}
+
+/* unesco */
+
+.unesco-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.unesco-img {
+    height: 238px;
+    margin: 19px;
+}
+
+.unesco-text {
+    height: 229px;
+    margin: 23px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+
+/* description */
+
+.description-text1 {
+    height: 229px;
+    margin: 23px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.description-text2 {
+
+    color: #efcf94;
+    text-align: center;
+    margin-right: 17px;
+}
+
+
+.description-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* a propos */
+
+ul {
+    padding: 0%;
+    margin: 74px;
+}
+
+
+li {
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 20px;
+
+
+}
+
+.propos {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--yellow);
+    position: relative;
+    padding-bottom: 5px;
+    font-size: medium;
+
+}
+
+/* reseaux */
+
+i {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--yellow);
+    margin: 10px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+    margin-top: 42px;
+}
+
+/* newlatter */
+
+legend {
+    margin: 141px;
+    color: var(--yellow);
+    margin-bottom: 23px;
+}
+
+label {
+    color: #ff5900;
+    margin-left: 125px;
+}
+
+.envoyer {
+    background-color: var(--yellow);
+    color: #ff5900;
+    font-weight: 600;
+}
+
+.info {
+    margin-bottom: 21px;
+}
+
+/* footer */
+footer .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+footer .copy a.cgv {
+    text-decoration: none;
+    color: black;
+
+}
+
+.copy {
+    background-color: var(--yellow);
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 10px;
+    font-size: small;
+    margin-top: 36px;
+}

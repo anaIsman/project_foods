@@ -1,0 +1,52 @@
+#banniere {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/contact.jpeg) no-repeat !important;
+    background-size: cover !important;
+    background-position-y: center !important;
+    background-attachment: fixed;
+}
+
+
+.info-contact {
+    margin-bottom: 21px;
+    display: grid;
+    justify-content: center;
+}
+
+.contact legend {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fieldset {
+    margin: 45px;
+}
+
+label {
+    margin: 9px;
+}
+
+/* carte */
+
+.carte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 44px;
+}
+
+.p-carte {
+    height: 94px;
+    margin: 23px;
+    color: #ffffff;
+}
+
+.div-carte {
+    width: 666px;
+}
